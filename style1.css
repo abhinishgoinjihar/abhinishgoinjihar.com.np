@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}  
+
+
+
+body{
+    background-color: whitesmoke;
+    color: white;
+    font-family: sans-serif;
+
+
+}
+
+.navi{
+    background-color: black;
+}
+
+
+/* .menu ul{
+    display: inline-flex;
+    margin: 50px;
+} */
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+
+}
+
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.main{
+    color:black;
+    /* margin-top: 50%; */
+    /* margin-bottom: 50%; */
+    /* margin-left: 50%; */
+}
