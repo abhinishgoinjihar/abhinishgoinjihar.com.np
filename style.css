@@ -8,8 +8,7 @@ body{
     background-color:white;
     /* color: white; */
     font-family: sans-serif;
-
-
+    overflow: hidden;
 }
 
 .navi{
@@ -20,20 +19,28 @@ body{
 .main-nav li a{
     display: inline;
     list-style: none;
-    color: #b2b1b1;
+    color: #f1ebeb;
+    text-decoration: none; 
    
-
-
 }
+
+.main-nav li a:hover{
+    color: white;
+}
+
+/* .active{
+    background-color: rgb(141, 110, 73);
+} */
 
 .menu ul li{
     display: inline;
     list-style: none;
     margin-left:40px;
     margin: 0 20px;
-    color: #b2b1b1;
+    color: #f1ebeb;
     cursor: pointer;
     margin-right: 20%;
+    /* float: center; */
 }
 
 .logo img{
@@ -48,7 +55,7 @@ body{
     top: 25%;
     left: 130px;
     position: absolute;
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Crete Round', serif;
 
 }
 
@@ -72,7 +79,7 @@ body{
 
 
 .info p{
-    font-size: 15px;
+    font-size: 20px;
     width: 650px;
     margin: 30px o 30px 40px;
     line-height: 25px;
@@ -89,13 +96,37 @@ body{
 }
 
 .color{
-    animation: color 0.0001s infinite;
+    animation: color 6s infinite;
 
 }
 
 @keyframes color{
-    0%{color:lightgrey;}
+    0%{color:rgb(209, 202, 202);}
     25%{color:#BCBCBC;}
     50%{color: gray;}
-    100%{color:#585858;}
+    100%{color:#646464;}
+}
+
+.tele img{
+    width: 50px;
+    height: 80px;
+
+}
+
+.contact{
+    font-family: 'Crete Round', serif;
+    color: rgb(141, 110, 73);
+    font-size: 20px;
+}
+
+.h1{
+    animation: h1 6s infinite;
+
+}
+
+@keyframes h1{
+    0%{color:rgb(209, 202, 202);}
+    25%{color:#BCBCBC;}
+    50%{color: gray;}
+    100%{color:#646464;}
 }
